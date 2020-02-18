@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-  background-color: rgba(255, 255, 255, 0.8) !important;
+  background-color: rgba(255, 255, 255, 0.3) !important;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -80,12 +80,12 @@ body {
   position: absolute;
   text-transform: uppercase;
   color: white;
+  z-index: 1;
 }
 
 .header-container .header-info.header-topic {
   top: 13rem;
   font-size: 45px;
-  z-index: 1;
 }
 
 .header-container .header-info.header-footer {
@@ -106,9 +106,9 @@ body {
   content: "";
   border-left: 2px solid rgba(255, 255, 255, 0.1);
   background-color: rgba(0, 0, 0, 0.7);
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.5s ease-in-out;
   position: absolute;
-  top: 0;
+  top: 80px;
   bottom: 0;
   left: 0;
   right: 0;
