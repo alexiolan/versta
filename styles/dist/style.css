@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-  background-color: rgba(255, 255, 255, 0.3) !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -66,10 +66,16 @@ body {
 .header-container {
   display: flex;
   flex: 1;
-  background-image: url("../assets/photo.jpg");
+  background-image: url("../assets/bg.jpg");
   background-size: cover;
-  background-position: center;
+  background-position-y: top;
+  background-position-x: center;
   overflow: hidden;
+}
+
+.header-container .bg-video {
+  position: absolute;
+  width: 100%;
 }
 
 .header-container .header-info {
@@ -84,13 +90,13 @@ body {
 }
 
 .header-container .header-info.header-topic {
-  top: 13rem;
-  font-size: 45px;
+  top: 8rem;
+  font-size: 35px;
 }
 
 .header-container .header-info.header-footer {
-  bottom: 8rem;
-  font-size: 35px;
+  bottom: 2rem;
+  font-size: 25px;
   opacity: 0.5;
 }
 
@@ -115,7 +121,7 @@ body {
 }
 
 .header-container .header-part .centered-content {
-  background: rgba(191, 26, 26, 0.5);
+  background: rgba(191, 26, 26, 0.9);
   color: white;
   text-align: left;
   cursor: pointer;
